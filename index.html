@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Name and Address</legend>
+
+            <!-- Do you use CiviCRM -->
+
+            <div>Do you use CiviCRM?
+                <input type="radio" id="name" name="same">
+                <label for="name">yes</label>
+                <input type="radio" id="same" name="same">
+                <label for="same">No</label>
+                <a href="#"> (unselect)</a>
+            </div>
+            <br>
+            <!-- how long have been using -->
+            <!-- Dropdowns -->
+            <div>How long have been using CiviCRM?
+                <select>
+                    <option value="disabled selected"> --select--</option>
+                    <option value="less than one year"> less then 1 years </option>
+                    <option value=" years"> 2years</option>
+                    <option value="4 years"> 3years</option>
+                    <option value="2 years"> 5years</option>
+                </select>
+            </div>
+            <br>
+            <!-- next Dropdowns "which cms you use" -->
+            <div>Which CMS do you use?
+                <select>
+                    <option value="disabled selected"> --select--</option>
+                    <option value="cms"> Silverstripe CMS </option>
+                    <option value="modx"> MODX</option>
+                    <option value="umbraco"> Umbraco</option>
+                    <option value="wordpress"> WordPress</option>
+                </select>
+            </div>
+            <br>
+
+            <!-- next dropdown "your skil set" -->
+            <div> Your skill set?
+                <select>
+                    <option value="disabled selected"> --select--</option>
+                    <option value="web development"> Web-development </option>
+                    <option value=" graphic designer"> Graphic Designer </option>
+                    <option value="Cybersecurity"> Cybersecurity</option>
+                    <option value=" Data Science and Analytics">Data Science and Analytics</option>
+                </select>
+            </div>
+            <br>
+
+
+            <!-- personal info "next section start" -->
+            <Div>
+                <label for="email"> Email* </label>
+                <input type="email" size="20" required id="email">
+            </Div>
+            <br>
+
+
+            <Div>
+                <label for="fname"> First Name* </label>
+                <input type="text" size="20" required id="fname">
+            </Div>
+            <br>
+
+
+            <Div>
+                <label for="lname"> Last Name* </label>
+                <input type="text" size="20" required id="lname">
+            </Div>
+            <p> First and the Last name will be shared with the other visitor of the site.</p>
+
+            <!-- address info -->
+            <!-- <br> -->
+            <Div>
+                <label for="address"> Street Address(home) </label>
+                <input type="address" size="40" id="address">
+            </Div>
+            <br>
+            <!-- city -->
+            <Div>
+                <label for="city"> City(home) </label>
+                <input type="text" size="20" id="city">
+            </Div>
+            <br>
+            <!-- postal code -->
+            <Div>
+                <label for="code"> Postal Code(home) </label>
+                <input type="number" size="10" required id="code">
+            </Div>
+            <br>
+            <!-- which country -->
+            <div> Country(Home)
+                <select>
+                    <option value="disabled selected"> --select--</option>
+                    <option value="Pakistan"> Pakistan </option>
+                    <option value=" India"> India </option>
+                    <option value="China"> China </option>
+                    <option value="Canada ">Canada</option>
+                </select>
+            </div>
+
+            <p> Your state/province and country of residence will be
+                shared with other so folks can find other in their
+                country</p>
+
+
+            <!-- select state -->
+            <div> State(Home)
+                <select name="" id="">
+                    <option value="disabled selected"> --select--</option>
+                    <option value=""> Punjab
+
+                    </option>
+                    <option value="Khyber Pakhtunkhwa (KP) "> Khyber Pakhtunkhwa (KP) </option>
+                    <option value="Sindh"> Sindh </option>
+                    <option value="Balochistan ">Balochistan</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <!-- buttons -->
+
+        <button type="submit">save</button>
+        <button type="reset">cancel</button>
+    </form>
+
+</body>
+
+</html>
